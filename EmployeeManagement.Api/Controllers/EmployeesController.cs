@@ -20,4 +20,26 @@ public class EmployeesController : ControllerBase
     [HttpGet]
     public async Task<IActionResult> GetAll()
         => Ok(await _mediator.Send(new GetAllEmployeesQuery()));
+
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetById(int id)
+    {
+        var result = await _mediator.Send(new GetEmployeeByIdQuery(id));
+        return result is null ? NotFound() : Ok(result);
+    }
+
+    [HttpPut("{id}")]
+    public async Task<IActionResult> Update(int id, UpdateEmployeeCommand command)
+    {
+        if (id != command.Id) return BadRequest("ID mismatch");
+        var result = await _mediator.Send(command);
+        return result ? NoContent() : NotFound();
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> Delete(int id)
+    {
+        var result = await _mediator.Send(new DeleteEmployeeCommand(id));
+        return result ? NoContent() : NotFound();
+    }
 }

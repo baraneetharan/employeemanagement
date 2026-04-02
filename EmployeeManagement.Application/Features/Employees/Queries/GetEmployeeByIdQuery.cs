@@ -20,9 +20,16 @@ public class GetEmployeeByIdQueryHandler
     public async Task<EmployeeDto?> Handle(GetEmployeeByIdQuery request, CancellationToken ct)
     {
         const string sql = """
-            SELECT id, first_name, last_name, email, date_of_birth, salary, is_active
+            SELECT 
+                id AS Id,
+                first_name AS FirstName,
+                last_name AS LastName,
+                email AS Email,
+                date_of_birth AS DateOfBirth,
+                salary AS Salary,
+                is_active AS IsActive
             FROM employees 
-            WHERE id = @Id AND is_active = true;
+            WHERE id = @Id;
         """;
 
         return await _connection.QueryFirstOrDefaultAsync<EmployeeDto>(sql, new { request.Id });

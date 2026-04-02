@@ -8,6 +8,8 @@ public record UpdateEmployeeCommand(
     int Id,
     string FirstName,
     string LastName,
+    string Email,
+    DateTime DateOfBirth,
     decimal Salary
 ) : IRequest<bool>;
 
@@ -28,7 +30,12 @@ public class UpdateEmployeeCommandHandler
         var employee = await _repository.GetByIdAsync(request.Id, ct);
         if (employee == null) return false;
 
-        employee.UpdateDetails(request.FirstName, request.LastName, request.Salary);
+        employee.UpdateAllDetails(
+            request.FirstName, 
+            request.LastName, 
+            request.Email, 
+            request.DateOfBirth, 
+            request.Salary);
 
         await _unitOfWork.SaveChangesAsync(ct);
         return true;

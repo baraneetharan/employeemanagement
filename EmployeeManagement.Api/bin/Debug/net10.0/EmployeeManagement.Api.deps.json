@@ -813,7 +813,9 @@
       "EmployeeManagement.Infrastructure/1.0.0": {
         "dependencies": {
           "Dapper": "2.1.72",
+          "EmployeeManagement.Application": "1.0.0",
           "EmployeeManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "10.0.5",
           "Npgsql": "10.0.2",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.1"
         },

@@ -67,6 +67,29 @@ namespace EmployeeManagement.Domain.Entities
             UpdatedAt = DateTime.UtcNow;
         }
 
+        public void UpdateAllDetails(string firstName, string lastName, string email, DateTime dateOfBirth, decimal salary)
+        {
+            if (string.IsNullOrWhiteSpace(firstName))
+                throw new ArgumentException("First name is required.");
+            if (string.IsNullOrWhiteSpace(lastName))
+                throw new ArgumentException("Last name is required.");
+            if (string.IsNullOrWhiteSpace(email))
+                throw new ArgumentException("Email is required.");
+            if (dateOfBirth == default || dateOfBirth > DateTime.UtcNow)
+                throw new ArgumentException("Invalid date of birth.");
+            if (CalculateAge(dateOfBirth) < 18)
+                throw new ArgumentException("Employee must be at least 18 years old.");
+            if (salary <= 0)
+                throw new ArgumentException("Salary must be greater than zero.");
+
+            FirstName = firstName.Trim();
+            LastName = lastName.Trim();
+            Email = email.Trim().ToLower();
+            DateOfBirth = dateOfBirth.Date;
+            Salary = salary;
+            UpdatedAt = DateTime.UtcNow;
+        }
+
         public void Deactivate()
         {
             IsActive = false;

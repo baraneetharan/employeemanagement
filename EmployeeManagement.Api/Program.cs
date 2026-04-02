@@ -1,6 +1,8 @@
 using MediatR;
 using EmployeeManagement.Application;
 using EmployeeManagement.Infrastructure;
+using EmployeeManagement.Application.Common;
+using Dapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,8 +12,11 @@ builder.Services.AddControllers();
 
 builder.Services.AddOpenApi();
 
-builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Class1).Assembly));
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(EmployeeManagement.Application.Class1).Assembly));
 builder.Services.AddInfrastructure(builder.Configuration);
+
+// Register Dapper DateOnly type handler
+SqlMapper.AddTypeHandler(new DateOnlyTypeHandler());
 
 // builder.Services.AddApiVersioning(options =>
 // {
