@@ -1,5 +1,6 @@
 using MediatR;
 using EmployeeManagement.Application;
+using EmployeeManagement.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Class1).Assembly));
+builder.Services.AddInfrastructure(builder.Configuration);
 
 // builder.Services.AddApiVersioning(options =>
 // {
