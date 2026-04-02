@@ -13,3 +13,4 @@ D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Application\obj\Debug\net1
 D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Application\obj\Debug\net10.0\refint\EmployeeManagement.Application.dll
 D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Application\obj\Debug\net10.0\EmployeeManagement.Application.pdb
 D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Application\obj\Debug\net10.0\ref\EmployeeManagement.Application.dll
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Application\obj\Debug\net10.0\EmployeeManagement.Application.sourcelink.json

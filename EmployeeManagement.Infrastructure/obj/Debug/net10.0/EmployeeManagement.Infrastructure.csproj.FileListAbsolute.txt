@@ -13,3 +13,6 @@ D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\obj\Debug\n
 D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\obj\Debug\net10.0\refint\EmployeeManagement.Infrastructure.dll
 D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\obj\Debug\net10.0\EmployeeManagement.Infrastructure.pdb
 D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\obj\Debug\net10.0\ref\EmployeeManagement.Infrastructure.dll
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\obj\Debug\net10.0\EmployeeManagement.Infrastructure.sourcelink.json
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\bin\Debug\net10.0\EmployeeManagement.Application.dll
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\bin\Debug\net10.0\EmployeeManagement.Application.pdb

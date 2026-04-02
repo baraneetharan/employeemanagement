@@ -1268,6 +1268,9 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
+              "D:\\baraneetharan\\dotnetcore\\aicode\\EmployeeManagement.Application\\EmployeeManagement.Application.csproj": {
+                "projectPath": "D:\\baraneetharan\\dotnetcore\\aicode\\EmployeeManagement.Application\\EmployeeManagement.Application.csproj"
+              },
               "D:\\baraneetharan\\dotnetcore\\aicode\\EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj": {
                 "projectPath": "D:\\baraneetharan\\dotnetcore\\aicode\\EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj"
               }

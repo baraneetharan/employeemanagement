@@ -9,3 +9,4 @@ D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Domain\obj\Debug\net10.0\E
 D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Domain\obj\Debug\net10.0\refint\EmployeeManagement.Domain.dll
 D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Domain\obj\Debug\net10.0\EmployeeManagement.Domain.pdb
 D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Domain\obj\Debug\net10.0\ref\EmployeeManagement.Domain.dll
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Domain\obj\Debug\net10.0\EmployeeManagement.Domain.sourcelink.json
