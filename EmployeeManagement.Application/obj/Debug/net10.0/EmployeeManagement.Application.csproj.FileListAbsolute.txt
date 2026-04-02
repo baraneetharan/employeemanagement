@@ -1,0 +1,15 @@
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Application\obj\Debug\net10.0\EmployeeManagement.Application.csproj.AssemblyReference.cache
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Application\obj\Debug\net10.0\EmployeeManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Application\obj\Debug\net10.0\EmployeeManagement.Application.AssemblyInfoInputs.cache
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Application\obj\Debug\net10.0\EmployeeManagement.Application.AssemblyInfo.cs
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Application\obj\Debug\net10.0\EmployeeManagement.Application.csproj.CoreCompileInputs.cache
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Application\bin\Debug\net10.0\EmployeeManagement.Application.deps.json
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Application\bin\Debug\net10.0\EmployeeManagement.Application.dll
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Application\bin\Debug\net10.0\EmployeeManagement.Application.pdb
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Application\bin\Debug\net10.0\EmployeeManagement.Domain.dll
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Application\bin\Debug\net10.0\EmployeeManagement.Domain.pdb
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Application\obj\Debug\net10.0\Employee.16DA35CB.Up2Date
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Application\obj\Debug\net10.0\EmployeeManagement.Application.dll
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Application\obj\Debug\net10.0\refint\EmployeeManagement.Application.dll
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Application\obj\Debug\net10.0\EmployeeManagement.Application.pdb
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Application\obj\Debug\net10.0\ref\EmployeeManagement.Application.dll

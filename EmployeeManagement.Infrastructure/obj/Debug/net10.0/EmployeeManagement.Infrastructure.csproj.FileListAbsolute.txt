@@ -1,0 +1,15 @@
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\bin\Debug\net10.0\EmployeeManagement.Infrastructure.deps.json
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\bin\Debug\net10.0\EmployeeManagement.Infrastructure.dll
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\bin\Debug\net10.0\EmployeeManagement.Infrastructure.pdb
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\bin\Debug\net10.0\EmployeeManagement.Domain.dll
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\bin\Debug\net10.0\EmployeeManagement.Domain.pdb
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\obj\Debug\net10.0\EmployeeManagement.Infrastructure.csproj.AssemblyReference.cache
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\obj\Debug\net10.0\EmployeeManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\obj\Debug\net10.0\EmployeeManagement.Infrastructure.AssemblyInfoInputs.cache
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\obj\Debug\net10.0\EmployeeManagement.Infrastructure.AssemblyInfo.cs
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\obj\Debug\net10.0\EmployeeManagement.Infrastructure.csproj.CoreCompileInputs.cache
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\obj\Debug\net10.0\Employee.66F3489C.Up2Date
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\obj\Debug\net10.0\EmployeeManagement.Infrastructure.dll
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\obj\Debug\net10.0\refint\EmployeeManagement.Infrastructure.dll
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\obj\Debug\net10.0\EmployeeManagement.Infrastructure.pdb
+D:\baraneetharan\dotnetcore\aicode\EmployeeManagement.Infrastructure\obj\Debug\net10.0\ref\EmployeeManagement.Infrastructure.dll
